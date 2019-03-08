@@ -1,0 +1,57 @@
+@import "./variables.scss";
+
+.status-completed {
+  background: $status-color-completed;
+}
+
+.status-assigned {
+  background: $status-color-assigned;
+}
+
+.status-new {
+  background: $status-color-new;
+}
+
+.status-pre-assigned {
+  background: $status-color-pre-assigned;
+}
+
+.status-released {
+  background: $status-color-released;
+}
+
+.status-aborted {
+  background: $status-color-rejected;
+}
+
+.status-in-progress {
+  background: $status-color-in-progress;
+}
+
+.status-approved {
+  background: $status-color-approved;
+}
+
+.status-re-inspect {
+  background: $status-color-reinspect;
+}
+.status-rejected {
+  background: $status-color-rejected;
+}
+.status-pending {
+  background: $status-color-reset;
+}
+
+.status-waived {
+  background: $status-color-pending;
+}
+.status-rejected {
+  background: $status-color-rejected;
+}
+.status-merged {
+  background: $status-color-merged;
+}
+
+.status-confirmed {
+  background: $status-color-confirmed;
+}

@@ -1,0 +1,32 @@
+@import "./bootstrap4/functions";
+@import "./bootstrap4/mixins";
+@import './bootstrap4/variables';
+
+$font-family-sans-serif: 'Roboto', sans-serif;
+$font-family-base: $font-family-sans-serif;
+
+$font-size-base: 14px;
+$font-weight-base: 400;
+
+$body-color: #555;
+$body-bg: #e9ecf5;
+$text-color: $body-color;
+$border-color: #eee;
+
+$main-padding: 16px;
+
+$status-color-new: #22B7CF;
+$status-color-pending: #FBB03B;
+$status-color-assigned: #38D9A9;
+$status-color-confirmed: #0078B7;
+$status-color-completed: #17B7FF;
+$status-color-rejected: #FA5252;
+$status-color-reinspect: #FF7300;
+$status-color-approved: #284C8C;
+$status-color-active: #22B7CF;
+$status-color-inactive: #99b3bd;
+$status-color-released: #0078B7;
+$status-color-pre-assigned: #D76560;
+$status-color-in-progress: #FBB03B;
+$status-color-merged: #936FDC;
+$status-color-reset: #778F9B;
