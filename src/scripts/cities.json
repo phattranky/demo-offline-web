@@ -1,0 +1,19 @@
+[
+  {
+    "id": "Ho Chi Minh City, Vietnam",
+    "name": "Ho Chi Minh City, Vietnam",
+    "img": "/public/img/saigon.jpg"
+  }, {
+    "id": "Hangchow, Zhejiang, China",
+    "name": "Hangzhou, Zhejiang, China",
+    "img": "/public/img/hangzhou.jpg"
+  }, {
+    "id": "Minneapolis, Minnesota, United States of America",
+    "name": "Minneapolis, Minnesota, US",
+    "img": "/public/img/minneapolis.jpg"
+  }, {
+    "id": "Myensk, Minsk, Belarus",
+    "name": "Minsk, Belarus",
+    "img": "/public/img/minsk.jpg"
+  }
+]

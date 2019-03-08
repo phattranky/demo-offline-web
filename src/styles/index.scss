@@ -16,123 +16,19 @@ body {
   overflow-x: hidden;
 }
 
-.table {
-  th {
-    background-color: #eaeff2;
-  }
-}
-
-.btn, .form-control {
-  font-size: 14px;
-}
-
 .logo-img {
-  height: 48px;
+  height: 72px;
+  margin: 0 auto;
 }
 
-.custom-panel {
-  background: #fff;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px 0 rgba(0, 10, 18, 0.05);
-
-  .panel-title {
-    font-weight: 500;
-    font-size: 20px;
-    text-transform: uppercase;
-    line-height: 38px;
-  }
+.main-content {
+  max-width: 920px;
+  margin: 0 auto;
 }
 
-.custom-panel-header {
-  padding: $main-padding;
-  border-bottom: 1px solid #EEEEEE;
-}
-
-.status-wrapper {
-  padding: $main-padding;
-}
-
-.quick-filter-buttons {
-  display: flex;
-  align-items: center;
-
-  .btn {
-    color: $text-color;
-    display: flex;
-    align-items: center;
-    font-weight: normal;
-    border: 2px solid #FFF;
-    outline: none !important;
-    margin-left: 5px;
-    padding: 5px 15px;
-    box-shadow: none;
-    font-size: 14px;
-
-    &:hover {
-      background: none;
-      border-color: #f6f6f6;
-
-    }
-
-    &.active {
-      color: #222222;
-      background-color: $body-bg;
-      border-color: #EBEFF2;
-    }
-  }
-
-  .status-ind {
-    width: 8px;
-    height: 8px;
-    margin-right: 5px;
-    border-radius: 50%;
-    display: inline-block;
-  }
-}
-
-.search-input {
-  width: 300px;
-  position: relative;
-
-  .search-icon {
-    position: absolute;
-    left: 12px;
-    top: 12px;
-  }
-
-  .search-text-field {
-    padding-left: 32px;
-  }
-}
-
-.actions-btn-wrapper {
-  .filter-btn {
-    border: 2px solid #EBEFF2;
-  }
-}
-
-.gradient-btn {
-  background: linear-gradient(to bottom, #ffffff 0%, #eceff5 100%);
-  text-transform: uppercase;
-  color: #717E88;
-  border: 1px solid #EBEFF2;
-}
-
-.action-btn {
-  height: 38px;
-}
-
-.dropdown-item {
-  padding: 3px 20px;
-  font-size: 14px;
-}
-
-.row-action-dropdow {
-  &:hover {
-    cursor: pointer;
-  }
-}
-
-.pagination {
-  font-size: 12px;
+.city-img {
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }

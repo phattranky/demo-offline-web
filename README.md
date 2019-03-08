@@ -1,6 +1,6 @@
-# Webpack Frontend Starterkit
+# Inspectorio - Daily Weather
 
-A lightweight foundation for your next webpack based frontend project.
+Daily Weather of Inspectorio's offices
 
 
 ### Installation
