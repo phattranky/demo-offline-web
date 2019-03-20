@@ -21,6 +21,9 @@ npm start
 npm run build
 ```
 
+### Branches
+- *demo/service-worker*: https://is-daily-weather-sw.surge.sh/
+
 ### Features:
 
 * ES6 Support via [babel](https://babeljs.io/) (v7)
