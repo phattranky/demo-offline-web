@@ -2,6 +2,7 @@ const Path = require('path');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const WorkboxPlugin = require('workbox-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -24,7 +25,22 @@ module.exports = {
     ]),
     new HtmlWebpackPlugin({
       template: Path.resolve(__dirname, '../src/index.html')
-    })
+    }),
+    new WorkboxPlugin.GenerateSW({
+      clientsClaim: true,
+      skipWaiting: true,
+      exclude: [/\.map$/, /\.gitkeep$/, /\.DS_Store$/],
+      importWorkboxFrom: 'cdn',
+      navigateFallback: '/index.html',
+      navigateFallbackBlacklist: [
+        // Exclude URLs starting with /_, as they're likely an API call
+        new RegExp('^/_'),
+        // Exclude URLs containing a dot, as they're likely a resource in
+        // public/ and not a SPA route
+        new RegExp('/[^/]+\\.[^/]+$'),
+      ],
+      offlineGoogleAnalytics: true
+    }),
   ],
   resolve: {
     alias: {
